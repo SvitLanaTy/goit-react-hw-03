@@ -1,0 +1,49 @@
+.form {
+  width: calc((100% - 100px) / 3);
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #c4edfafa;
+}
+
+.statusWrapper {
+  display: flex;
+  align-items: center;
+}
+.submitBtn {
+  border: 1px solid rgb(83, 82, 82);
+  margin: 0 auto;
+  padding: 5px;
+  min-width: 120px;
+  border-radius: 5px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.submitBtn:hover,
+.submitBtn:focus {
+  background-color: rgb(130, 186, 238);
+}
+
+.errorText {
+  font-size: 14px;
+  color: red;
+  background-color: rgb(217, 227, 230);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+}

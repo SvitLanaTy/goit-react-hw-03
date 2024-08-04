@@ -1,0 +1,19 @@
+.section {
+  padding: 20px 0;
+  background-color: #bcebfa;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 38px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  margin-top: 0;
+  margin-left: 15px;
+  text-align: left;
+}
